@@ -25,4 +25,4 @@ jobs:
                   SANITY_STUDIO_FRONTEND_BASE_URL=${{ secrets.SANITY_STUDIO_FRONTEND_BASE_URL }}
                   EOF
                   # Make sure to add a secret for SANITY_AUTH_TOKEN
-                  SANITY_AUTH_TOKEN="${{ secrets.SANITY_AUTH_TOKEN }}" yarn sanity deploy
+                  SANITY_AUTH_TOKEN="${{ secrets.SANITY_AUTH_TOKEN }}" sanity deploy
